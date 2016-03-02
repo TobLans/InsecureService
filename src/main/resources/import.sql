@@ -1,0 +1,1 @@
+INSERT INTO myuser(name, pass) VALUES ('admin', 'meh2')
