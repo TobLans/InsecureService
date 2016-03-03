@@ -26,6 +26,6 @@ public class LoginController {
     @RequestMapping("/login")
     @Transactional(readOnly = true)
     public boolean login(@RequestParam("user") String user, @RequestParam("pass") String pass) {
-        return this.userService.getUser(user, pass)!=null;
+        return this.userService.getUser(user, pass) != null;
     }
 }
